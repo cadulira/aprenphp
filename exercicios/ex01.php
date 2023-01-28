@@ -14,7 +14,15 @@
 
 // ex III
 
-$a = 20;
-echo $a;
-echo "<br>";
-echo ++$a;
+//$a = 20;
+//echo $a;
+//echo "<br>";
+//echo ++$a;
+
+// ex IV
+
+$a = 100;
+$b = 250;
+$c = $a + $b;
+$c++;
+echo $c;
